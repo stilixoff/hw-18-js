@@ -12,6 +12,8 @@ import Posts from "./components/Posts/Posts"
 import Galery from "./components/Galery/Galery"
 
 import "./App.css"
+import "./reset.css"
+
 
 export default function App() {
   return (
