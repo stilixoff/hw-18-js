@@ -1,0 +1,52 @@
+.contacts-list {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    max-width: 506px;
+    max-height: 1021px;
+    min-width: 320px;
+    min-height: 706px;
+    background: url(./img/ramka.png) center no-repeat;
+    background-size: contain;
+    overflow: hidden;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.inputs {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 506px;
+    min-width: 320px;
+    width: 60%;
+    flex-wrap: wrap;
+    margin-top: 40px;
+    padding: 0px 10px;
+    box-sizing: border-box;
+}
+
+.input-text {
+    width: 100%;
+}
+
+.input-text input{
+    width: 100%;
+    height: 30px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.contacts {
+    width: 60%;
+    height: 500px;
+    overflow: scroll;
+    overflow-x: unset;
+}
+
+.contact {
+    border: 2px solid gray;
+    margin: 10px 0px;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}

@@ -1,0 +1,11 @@
+.galery {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.galery img{
+    width: 300px;
+    height: 300px;
+    margin: 20px;
+}
